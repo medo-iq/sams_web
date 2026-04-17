@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SMAS Project</title>
+
+<style>
+:root {
+  --bg: #ffffff;
+  --card: #f4fbf6;
+  --primary: #2e7d32;
+  --secondary: #4caf50;
+  --border: #e0e0e0;
+  --text: #000000;
+  --muted: #555;
+}
+
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 10px;
+}
+
+.header h1 {
+  color: var(--primary);
+  margin: 0;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  color: var(--primary);
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 5px;
+}
+
+
+ul {
+  padding-right: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--muted);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+
+  <div class="header">
+    <h1>SMAS</h1>
+    <h3>Smart Measurement & AI System</h3>
+    <p>جامعة المستقبل - كلية الهندسة والتقنيات الهندسية</p>
+  </div>
+
+
+  <div class="card">
+    <p><strong>الإشراف:</strong> م.م. زينب كاظم</p>
+    <p><strong>القسم:</strong> هندسة تقنيات الحاسوب</p>
+    <p><strong>نوع المشروع:</strong> نظام قياس ذكي مدعوم بالذكاء الاصطناعي</p>
+  </div>
+
+
+  <div class="card">
+    <h2>أسماء الطلبة المنفذين</h2>
+    <ul>
+      <li>احمد ماجد مدلول</li>
+      <li>زينب حسن راضي</li>
+      <li>حسين حيدر ميران</li>
+      <li>كرار حيدر عباس</li>
+      <li>ابو الحسن فلاح</li>
+      <li>ادريس قاسم</li>
+    </ul>
+  </div>
+
+
+  <div class="card">
+    <h2>الفكرة الأساسية للمشروع</h2>
+    <p>
+      يهدف مشروع <strong>SMAS</strong> إلى إنشاء نظام ذكي يقوم بقياس وتحليل
+      الظروف البيئية المحيطة بشكل مستمر باستخدام مجموعة من المستشعرات.
+      يقوم النظام بجمع البيانات مثل درجة الحرارة، نسبة الرطوبة، وجودة الهواء،
+      ثم تحليلها باستخدام خوارزميات ذكية تعمل بشكل محلي داخل الجهاز.
+    </p>
+    <p>
+      يعتمد النظام على مبدأ <strong>التحليل الفوري (Real-Time Analysis)</strong>
+      لتحديد حالة البيئة، وإصدار تنبيهات وتوصيات مباشرة تساعد المستخدم
+      على اتخاذ إجراءات سريعة لتحسين الأمان وجودة الهواء.
+    </p>
+  </div>
+
+
+  <div class="card">
+    <h2>مواصفات المشروع</h2>
+    <ul>
+      <li>وحدة تحكم رئيسية: ESP32 (مع دعم WiFi)</li>
+      <li>مستشعرات لقياس الحرارة والرطوبة</li>
+      <li>مستشعر جودة الهواء والغازات</li>
+      <li>شاشة عرض لعرض البيانات والحالة</li>
+      <li>نظام تنبيهات باستخدام LED و Buzzer</li>
+      <li>نظام تحليل ذكي (AI / Rule-Based System)</li>
+    </ul>
+  </div>
+
+
+  <div class="card">
+    <h2>صور المشروع</h2>
+    <div class="images">
+      <img src="image1.jpg" style="width:100%; border-radius:10px;">
+      <img src="image2.jpg" style="width:100%; border-radius:10px;">
+      <img src="image3.jpg" style="width:100%; border-radius:10px;">
+    </div>
+  </div>
+
+
+  <div class="footer">
+    © 2026 - جامعة المستقبل
+  </div>
+
+</div>
+
+</body>
+</html>
